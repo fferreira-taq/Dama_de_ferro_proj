@@ -1,0 +1,14 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F628 -DL -O11111114 -fo8 -N"C:\Users\Fernando\Documents\Projetos\Sw\Dama de Ferro\DamadeFerro.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"C:\Users\Fernando\Documents\Projetos\Sw\Dama de Ferro\" "DamadeFerro.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CType.mcl" "__Lib_CString.mcl" "__Lib_CStdlib.mcl" "__Lib_CMath.mcl" "__Lib_Conversions.mcl" "__Lib_Sprinti.mcl" "__Lib_Sprintl.mcl" "__Lib_Time.mcl" "__Lib_Trigonometry.mcl" "__Lib_Button.mcl" "__Lib_Keypad4x4.mcl" "__Lib_Manchester.mcl" "__Lib_OneWire.mcl" "__Lib_PS2.mcl" "__Lib_Sound.mcl" "__Lib_SoftI2C.mcl" "__Lib_SoftSPI.mcl" "__Lib_SoftUART.mcl" "__Lib_EEPROM.mcl" "__Lib_PWM_b3.mcl" "__Lib_UART_b21.mcl" "__Lib_CF.mcl" "__Lib_GlcdFonts.mcl" "__Lib_Glcd.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl" "__Lib_RS485.mcl" "__Lib_S1D13700.mcl" "__Lib_T6963C.mcl" "__Lib_TFT.mcl"	 
+hint: 0	1139	Available RAM: 208 [bytes], Available ROM: 2048 [bytes]	 
+error: 0	304	C:/Users/Fernando/Documents/Projetos/Sw/Dama de Ferro/DamadeFerro.c:6: error: Can't open include file "pic16f628.h"	 
+error: 0	304	    #include <pic16f628.h>	 
+error: 0	304	C:/Users/Fernando/Documents/Projetos/Sw/Dama de Ferro/DamadeFerro.c:7: error: Unknown #directive "fuses"	 
+error: 0	304	    #fuses HS;NOWDT;	 
+error: 0	304	C:/Users/Fernando/Documents/Projetos/Sw/Dama de Ferro/DamadeFerro.c:9: error: Unknown #directive "use"	 
+error: 0	304	    #use delay(clock=400000)	 
+error: 0	304	C:/Users/Fernando/Documents/Projetos/Sw/Dama de Ferro/DamadeFerro.c:10: error: Unknown #directive "use"	 
+error: 0	304	    #use FAST_IO(A)	 
+error: 0	304	C:/Users/Fernando/Documents/Projetos/Sw/Dama de Ferro/DamadeFerro.c:11: error: Unknown #directive "use"	 
+error: 0	304	    #use FAST_IO(B)	 
+error: 0	304	5 errors in preprocessor.	 
+error: 0	102	Finished (with errors): 19 jul 2011, 01:29:22	DamadeFerro.mcppi
